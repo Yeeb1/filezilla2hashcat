@@ -7,7 +7,7 @@ This script converts [FileZilla](https://filezilla-project.org) hashes into a fo
 ### Converting Hashes
 
 ```sh
-python filezilla2hashcat.py --salt [salt] --hash [hash_value] [--iterations 100000]
+python3 filezilla2hashcat.py --salt [salt] --hash [hash_value] [--iterations 100000]
 ```
 
 - `--salt`: The salt used in the hash.
