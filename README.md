@@ -1,6 +1,6 @@
 # filezilla2hashcat
 
-This script converts FileZilla hashes into a format compatible with Hashcat (PBKDF2-HMAC-SHA256) for cracking. Additionally, it can parse `users.xml` or `server.xml` files to extract hashes, salts, and iterations automatically.
+This script converts [FileZilla](https://filezilla-project.org) hashes into a format compatible with Hashcat (PBKDF2-HMAC-SHA256) for cracking. Additionally, it can parse `users.xml` or `server.xml` files to extract hashes, salts, and iterations automatically.
 
 ## Usage
 
