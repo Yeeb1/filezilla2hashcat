@@ -36,7 +36,7 @@ User: filemanager, sha256:100000:AdRNx7rAs1CEM23S5Zp7NyAQYHcuo2LuevU3pAXKB18:mSb
 
 ## FileZilla Installation Log
 
-During installation, FileZilla logs the admin user's hash and salt (actually the output of `filezilla-server-crypt`) by default into `[INSTALL_PATH]\FileZilla Server\install.log``.
+During installation, FileZilla logs the admin user's hash and salt (actually the output of `filezilla-server-crypt`) by default into `[INSTALL_PATH]\FileZilla Server\install.log`.
 
 ```sh
 python3 filezilla2hashcat.py --salt 't3jAFWk4oZRo8fiOrpzlH21/vUZ8zPHmZZMnykOLwcM' --hash 'WGha3qUR2LsM80X/w2bqpVwsf8YzDXhDAWqqssJBkRY'       
